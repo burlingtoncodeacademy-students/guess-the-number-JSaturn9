@@ -1,0 +1,1 @@
+//reverses the game so that computer picks the number and I (human) try to guess it

@@ -18,8 +18,9 @@ start();
 
 //async function to start the game
 async function start() {
+  //Hardcodes a value of min to be 1 and max to be 10
   let number = randomNumber(1, 10);
-  console.log(number);
+
   //Computer asks me (user) to guess a number
   let guess = await ask("Please guess a number between 1 - 10.\n");
   //Turns the string guess variable into a number
